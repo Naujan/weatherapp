@@ -20,7 +20,7 @@ To get this to work you need an API key from [here](https://openweathermap.org/)
 - Yes, I need both of them
 - Created Dockerfiles and added the build commands
 - IT IS ALIVE! well sort of; after actually understanding stuff in this handy [tutorial](http://www.summa.com/blog/docker-for-developers-composing-multi-container-networks) I learned what was needed in the Dockerfile in order to get the this to build
-- It seems that in order to actually show anything on the browser you need tp define a port where it actually sends it! (ain't that something)
+- It seems that in order to actually show anything on the browser you need to define a port where it actually sends it! (ain't that something)
 - Houston we have a liftoff! The mandatory part is finished
 - With my friends VS plugins Prettier and ESlint I defeated the evil errors
 
