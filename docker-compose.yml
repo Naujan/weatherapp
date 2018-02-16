@@ -9,8 +9,6 @@ services:
       dockerfile: Dockerfile
     depends_on:
       - backend
-    environment:
-      -  APPID:${APPID}
 
   backend:
     ports:
@@ -18,3 +16,5 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
+    environment:
+      -  APPID=${APPID}
