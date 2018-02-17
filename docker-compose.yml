@@ -1,4 +1,4 @@
-version: "3"
+version: "3.2"
 services:
 
   frontend:
@@ -9,7 +9,11 @@ services:
       dockerfile: Dockerfile
     depends_on:
       - backend
-
+    volumes:
+      - type: bind
+        source: ./frontend
+        target: /code
+   
   backend:
     ports:
       - "9000:9000"
@@ -18,3 +22,8 @@ services:
       dockerfile: Dockerfile
     environment:
       -  APPID=${APPID}
+    volumes:
+      - type: bind
+        source: ./backend
+        target: /code
+          
