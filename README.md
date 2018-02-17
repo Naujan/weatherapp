@@ -23,6 +23,15 @@ To get this to work you need an API key from [here](https://openweathermap.org/)
 - It seems that in order to actually show anything on the browser you need to define a port where it actually sends it! (ain't that something)
 - Houston we have a liftoff! The mandatory part is finished
 - With my mighty friends: Visual Code plugins Prettier and ESlint I defeated the evil lint errors.
+- Trying my hand in geolocation
+- Doing this is harder than I thought
+- I may have doomed my program to locate itself on "Null Island" :(
+- Well now it gives the right coordinates but I guess the icon it gives is still wrong? If can show the temperature somewhere I could tell if the location is right (At the gulf of Guinea, where the null island is located is at least +20 celcius and here about -6)
+- Yup it works!
+- Fixing broken docker-compose by adding volumes (good ridance to constant building and downing of docker-compose)
+- ENOENT errors everywhere...
+- Updated the compose file format from version 3 to 3.2, that fixed some of the problems
+- It started suddenly working when I just built it instead of build --no-cache (o_o)
 
 # My final thoughts:
 
