@@ -1,6 +1,6 @@
 # WeatherApp
 
-This is an assignment I got. The goal was to learn the basics of Docker and Docker-compose
+This is an assignment I got. The goal was to learn the basics of Docker and Docker-compose. I was provided with a complete backend and frontend that required minor changes to work.
 
 # Manual
 
